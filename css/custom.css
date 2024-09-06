@@ -1,0 +1,63 @@
+h1, h2 {
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+button{
+    padding: 0px;
+    margin: 0;;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    grid-column: 3/4;
+    background-color: red;
+    text-align: center;
+    /* padding: 10px; */
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    border-radius: 100px;
+}
+
+.error:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+#lista-tweets{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contenedor-tweet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid black;
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    padding: 20px;
+    box-shadow: 3px 5px 10px gray;
+
+}
+
+
